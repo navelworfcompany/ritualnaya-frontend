@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Базовый URL API
-const API_BASE_URL = process.env.REACT_APP_API_URL || 'https://ritualnaya-api.onrender.com/api';
+const API_BASE_URL = 'https://ritualnaya-api.onrender.com/api';
 
 // Создаем экземпляр axios с настройками
 const api = axios.create({
